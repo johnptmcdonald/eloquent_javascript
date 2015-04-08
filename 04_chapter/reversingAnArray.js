@@ -13,8 +13,13 @@ function reverseArray(ary){
 	return newArray;
 }
 
+// to reverse IN PLACE, the key is to iterate over only half the array (using a for loop that ends when i is less than half the length of the array). A temporary variable holds the element at position i. This element is then overwritten by it's mirror image element on the other end of the array (the one that is at position array.length-1-i). The temporary variable is then put where the mirror image used to be. The loop then continues.
 function reverseArrayInPlace(ary){
-
-// TO BE CONTINUED!
+	for(var i = 0; i < Math.floor(ary.length/2); i++){
+		var tempVar = ary[i];
+		ary[i] = ary[ary.length-1-i];
+		ary[ary.length-1-i] = tempVar;
+	}
+	return ary;
 
 }
