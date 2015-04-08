@@ -1,17 +1,17 @@
 # Primary Data Types
  The primary (primitive) data types in Javascript are:
- * String
- * Number
- * Boolean
+* String
+* Number
+* Boolean
 
 
  The composite (reference) data types are:
- * Object
- * Array
+* Object
+* Array
 
  The special data types are:
- * Null
- * Undefined
+* Null
+* Undefined
 
 
 # Unary Operators
