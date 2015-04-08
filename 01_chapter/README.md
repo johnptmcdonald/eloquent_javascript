@@ -1,4 +1,4 @@
- ### Primary Data Types
+ # Primary Data Types
  The primary (primitive) data types in Javascript are:
  - String
  - Number
