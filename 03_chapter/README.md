@@ -1,6 +1,6 @@
 # Functions
 
-A *function definition* is just a regular variable definition where the value given to the function just happens to be a function.
+A *function expression/definition* is just a regular variable definition where the value given to the function just happens to be a function.
 
     var square = function(x){
     	return x * x;
