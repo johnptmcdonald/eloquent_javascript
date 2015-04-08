@@ -21,5 +21,6 @@ function reverseArrayInPlace(ary){
 		ary[ary.length-1-i] = tempVar;
 	}
 	return ary;
-
 }
+
+
