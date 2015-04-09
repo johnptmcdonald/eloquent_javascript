@@ -21,7 +21,7 @@
 
 // This function transforms an array into a list. First, we set the list to null, then we run through the array BACKWARDS. On each iteration, it sets the rest property to the current list, and the value property to the array element.
 function arrayToList(ary){
-	var list = null
+	var list = null;
 	for(var i = ary.length-1; i >= 0; i--){
 		list = {value: ary[i], rest: list}
 	}
